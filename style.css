@@ -1,16 +1,47 @@
-h2 {
-  color: blue;
+body {
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  align: center;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-right: 0px;
+}
 
-.center {
-  text-align: center;
+td, th {
+  text-align: left;
+  text-indent: 2px;
+  width: 255px;
+  padding: 8px;
+  padding-bottom: 20px;
+  border: 2px solid black;
+}
 
+ul {
+  margin-left: 15px;
+}
+
+ol {
+  margin-left: 22px;
+}
+
+li {
+  margin-bottom: 8px;
+  padding-left: 10px;
+  text-indent: 10px;
+}
+.element{
+  margin-left: 24%;
+  margin-right: 24%;
 }
 
 #search {
   font-family: serif;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 #requiredItems {
@@ -22,29 +53,17 @@ h2 {
 #schedule {
 }
 
+#foot {
+}
+
+li#boldList{
+  font-weight: bold;
+}
+
 a#linkNoUL {
   text-decoration: none;
 }
 
 a#linkNoCol {
   color: black;
-}
-table {
-  border-collapse: collapse;
-  border: 1px solid black;
-  align: center;
-}
-
-td, th {
-  text-align: left;
-  text-indent: 2px;
-  width: 300px;
-  padding: 8px;
-  padding-bottom: 20px;
-  border: 1px solid black;
-}
-
-body {
-  font-family: sans-serif;
-  margin-left: 100px;
 }
