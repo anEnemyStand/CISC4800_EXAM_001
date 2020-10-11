@@ -1,0 +1,50 @@
+h2 {
+  color: blue;
+}
+
+
+.center {
+  text-align: center;
+
+}
+
+#search {
+  font-family: serif;
+  font-size: 17px;
+}
+
+#requiredItems {
+}
+
+#focus {
+}
+
+#schedule {
+}
+
+a#linkNoUL {
+  text-decoration: none;
+}
+
+a#linkNoCol {
+  color: black;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  align: center;
+}
+
+td, th {
+  text-align: left;
+  text-indent: 2px;
+  width: 300px;
+  padding: 8px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+}
+
+body {
+  font-family: sans-serif;
+  margin-left: 100px;
+}
